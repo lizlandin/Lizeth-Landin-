@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Mi primera página web</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <!-- Título principal -->
+        <h1>Hola mundo</h1>
+
+        <!-- Subtítulo y párrafos -->
+        <h4>Sobre mí</h4>
+
+        <p>
+            Hola, soy Lizeth Landin y esta es mi primera página web.
+            Estoy aprendiendo a utilizar HTML en mi clase de
+            Internet de las Cosas.
+        </p>
+
+        <p>
+            En esta página comparto imágenes, un video y un enlace
+            para enviar un mensaje por WhatsApp.
+        </p>
+
+        <!-- Imagen JPG: el archivo debe pesar menos de 2 MB -->
+        <h4>Mi imagen JPG</h4>
+
+        <img src="foto.jpg" width="300" alt="Una fotografía">
+
+        <br>
+
+        <!-- La imagen PNG debe tener fondo transparente -->
+        <h4>Mi imagen transparente</h4>
+
+        <img src="imagen.png" width="250" alt="Imagen con fondo transparente">
+
+        <br>
+
+        <!-- GIF animado -->
+        <h4>Mi GIF animado</h4>
+
+        <img src="animacion.gif" width="250" alt="Una animación">
+
+        <br>
+
+        <h4>Mi video de YouTube</h4>
+
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/x47TgeRJtH0"
+            title="Video de YouTube"
+            allowfullscreen>
+        </iframe>
+
+        <br>
+
+        <!-- Hipervínculo -->
+        <h4>Mi universidad</h4>
+
+        <a href="https://www.tec.mx" target="_blank">
+            Tec de Monterrey
+        </a>
+
+        <br>
+
+        <!-- Botón que abre WhatsApp con el mensaje Hola Mundo -->
+        <h4>Contáctame</h4>
+
+        <form action="https://wa.me/4422507841" method="get" target="_blank">
+            <input type="hidden" name="text" value="Hola Mundo">
+            <button type="submit">Enviar mensaje por WhatsApp</button>
+        </form>
+    </body>
+</html>
