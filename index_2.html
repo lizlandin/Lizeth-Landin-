@@ -1,17 +1,39 @@
 <!DOCTYPE html> <!-- Especifica version HTML5 -->
 <html lang="en">
 <head>
+    <style>
+        @font-face {
+            font-family: "Svetze";
+            src: url("svetze/Svetze.otf") format("opentype");
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi segunda página web</title>
     <link rel="icon" type="image/png" href="favicon.ico">
 </head>
-<body style="background-color:bisque;">
-    <h1> Hola mundo</h1>
-    <h2> Esto es una prueba</h2>
+<body style="background-image: url('fondo.jpg');">
+    <h1 style="font-size: 50px; color: brown; text-decoration: line-through; font-family: Svetze;">Hola mundo</h1>
+    <h4 style="background-color: aliceblue; text-align: center;">Esto es una prueba</h4>
+
     <br> <!--El salto de linea es un ejemplo de una etiqueta vacia-->
+
+    <p style="background-color: aliceblue; text-align: center; font-size: 25px; font-family: 'Times New Roman', Times, serif;">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat aut optio tenetur inventore
+        praesentium velit ad sunt. Eveniet magnam id maiores quae consequuntur dicta. Sapiente doloremque
+        saepe atque libero aliquid?
+    </p>
+
+    <br> <!--El salto de linea es un ejemplo de una etiqueta vacia-->
+
     <img src="logo.jpg">
 
-    
+    <br>
+
+    <a href="https://www.tec.mx" target="_blank" style="color: brown; text-decoration: none;">Página del tec</a>
+
+    <br>
+
+    <a href="mailto:A01708546@tec.mx" style="color: brown; text-decoration: none;">Escríbeme un correo</a>
 </body>
 </html>
