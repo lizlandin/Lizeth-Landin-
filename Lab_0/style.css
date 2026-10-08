@@ -1,0 +1,30 @@
+body {
+            margin: 0; /* Elimina márgenes */
+            background-color: white; /* Fondo blanco */
+            height: 100vh; /* Altura de toda la pantalla */
+            display: flex; /* Activa Flexbox */
+            justify-content: center; /* Centra horizontalmente */
+            align-items: center; /* Centra verticalmente */
+        }
+
+        #contenedor {
+            background-color: black; /* Fondo negro */
+            padding: 10px; /* Espacio entre los bordes */
+        }
+
+        #logo {
+            text-align: center; /* Centra el texto */
+            border: 5px solid white; /* Borde blanco sólido */
+            background-color: black; /* Fondo negro */
+            padding: 10px 25px; /* Espacio interior */
+        }
+
+        i {
+            margin: 0; /* Elimina márgenes */
+            color: white; /* Texto blanco */
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 80px; /* Tamaño del texto */
+            text-transform: lowercase; /* Minúsculas */
+            font-weight: 900; /* Negrita gruesa */
+            letter-spacing: 5px; /* Espacio entre letras */
+        }
