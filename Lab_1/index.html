@@ -1,0 +1,473 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Billie Eilish</title>
+
+    <!-- Esta es la fuente que uso para los títulos -->
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+    <!-- Para que aparezca el icono en la pestaña -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Aquí conecto mi archivo de CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Este es el menú que aparece arriba de la página -->
+    <nav class="menu">
+
+        <a href="#home" class="logo">BILLIE/EILISH</a>
+
+        <!-- Cada enlace lleva a una sección de la misma página -->
+        <div class="menu-links">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#works">IMPORTANT WORKS</a>
+            <a href="#favorites">FAVORITES</a>
+        </div>
+
+    </nav>
+
+
+    <!-- HOME: aquí pongo el vinilo y la información principal -->
+    <section id="home" class="home">
+
+        <!-- La imagen grande del vinilo -->
+        <div class="vinilo">
+            <img src="images/vinilo.png" alt="Black vinyl record">
+        </div>
+
+        <!-- Aquí va el título y la lista de canciones -->
+        <div class="home-info">
+
+            <h1 id="principal">BILLIE<br>EILISH</h1>
+
+            <p class="subtitulo">
+                SINGER / SONGWRITER / POP
+            </p>
+
+            <p class="introduccion">
+                Here you can discover the music and creative world of
+                Billie Eilish, an American singer and songwriter
+                known for her unique sound, deep lyrics,
+                and distinctive visual style.
+            </p>
+
+            <h3 class="titulo-canciones">POPULAR</h3>
+
+            <!-- Agrupo las cuatro canciones para acomodarlas con CSS -->
+            <div class="lista-canciones">
+
+                <!-- Primera canción -->
+                <div class="cancion">
+
+                    <span class="numero">01</span>
+
+                    <img src="images/hit-me-hard-and-soft.jpg"
+                         alt="Hit Me Hard and Soft cover">
+
+                    <div class="datos-cancion">
+                        <h4>BIRDS OF A FEATHER</h4>
+                        <p>HIT ME HARD AND SOFT</p>
+                    </div>
+
+                    <span class="duracion">3:30</span>
+
+                </div>
+
+
+                <!-- Segunda canción -->
+                <div class="cancion">
+
+                    <span class="numero">02</span>
+
+                    <img src="images/lovely.jpg"
+                         alt="Lovely single cover">
+
+                    <div class="datos-cancion">
+                        <h4>lovely (with Khalid)</h4>
+                        <p>LOVELY — SINGLE</p>
+                    </div>
+
+                    <span class="duracion">3:20</span>
+
+                </div>
+
+
+                <!-- Tercera canción -->
+                <div class="cancion">
+
+                    <span class="numero">03</span>
+
+                    <img src="images/when-we-all-fall-asleep.jpg"
+                         alt="When We All Fall Asleep album cover">
+
+                    <div class="datos-cancion">
+                        <h4>bad guy</h4>
+                        <p>WHEN WE ALL FALL ASLEEP...</p>
+                    </div>
+
+                    <span class="duracion">3:14</span>
+
+                </div>
+
+
+                <!-- Cuarta canción -->
+                <div class="cancion">
+
+                    <span class="numero">04</span>
+
+                    <img src="images/when-we-all-fall-asleep.jpg"
+                         alt="When We All Fall Asleep album cover">
+
+                    <div class="datos-cancion">
+                        <h4>when the party's over</h4>
+                        <p>WHEN WE ALL FALL ASLEEP...</p>
+                    </div>
+
+                    <span class="duracion">3:16</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT: aquí cuento un poco sobre la vida de Billie -->
+    <section id="about" class="seccion">
+
+        <h2>ABOUT THE ARTIST</h2>
+
+        <!-- Primero hablo de su infancia, con la foto a la izquierda -->
+        <div class="about-bloque">
+
+            <img src="images/billie-childhood.jpg"
+                 alt="Billie Eilish as a child">
+
+            <div class="about-texto">
+
+                <h3>HER CHILDHOOD</h3>
+
+                <p>
+                    Billie Eilish Pirate Baird O'Connell was born
+                    on December 18, 2001, in Los Angeles, California.
+                    She grew up in a creative family and was
+                    homeschooled alongside her older brother, FINNEAS.
+                </p>
+
+                <p>
+                    Music has been part of her life since she was little.
+                    She joined the Los Angeles Children's Chorus
+                    when she was eight and started writing songs
+                    at a young age.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Aquí pongo la foto a la derecha para irlas alternando -->
+        <div class="about-bloque inverso">
+
+            <img src="images/billie-fashion.jpg"
+                 alt="Billie Eilish fashion style">
+
+            <div class="about-texto">
+
+                <h3>HER PERSONAL STYLE</h3>
+
+                <p>
+                    Outside of music, Billie is known for her
+                    unique fashion sense. She loves experimenting
+                    with different looks, from oversized clothes
+                    to bold hair colors.
+                </p>
+
+                <p>
+                    Her style has become an important part of
+                    how she expresses herself, and she isn't
+                    afraid to try something different.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Esta parte es sobre su hermano, con quien hace su música -->
+        <div class="about-bloque">
+
+            <img src="images/billie-finneas.jpg"
+                 alt="Billie Eilish with her brother Finneas">
+
+            <div class="about-texto">
+
+                <h3>FAMILY & MUSIC</h3>
+
+                <p>
+                    Billie is very close to her family,
+                    especially her brother FINNEAS,
+                    who is also her main musical collaborator.
+                </p>
+
+                <p>
+                    They started making music together when
+                    they were young. FINNEAS produced "Ocean Eyes",
+                    the song that helped Billie become famous in 2015.
+                </p>
+
+                <p>
+                    They continue writing and producing music together,
+                    and their creative partnership has been an
+                    important part of Billie's career.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Por último pongo algunos de sus logros más importantes -->
+        <div class="about-bloque inverso">
+
+            <img src="images/billie.jpg"
+                 alt="Billie Eilish portrait">
+
+            <div class="about-texto">
+
+                <h3>CAREER HIGHLIGHTS</h3>
+
+                <p>
+                    Since releasing "Ocean Eyes", Billie has become
+                    one of the most recognized artists
+                    of her generation.
+                </p>
+
+                <!-- Uso una lista para mostrar los años y sus premios -->
+                <ul>
+                    <li>2015 — Released "Ocean Eyes".</li>
+                    <li>2019 — Released her debut studio album.</li>
+                    <li>2020 — Won Album of the Year at the Grammys.</li>
+                    <li>2022 — Won an Oscar for "No Time to Die".</li>
+                    <li>2024 — Won an Oscar for "What Was I Made For?".</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- IMPORTANT WORKS: elegí dos canciones y un álbum -->
+    <section id="works" class="seccion">
+
+        <h2>IMPORTANT WORKS</h2>
+
+        <p class="descripcion-seccion">
+            Three works that helped define Billie Eilish's
+            career and international recognition.
+        </p>
+
+        <!-- Las tres obras van una al lado de la otra -->
+        <div class="obras">
+
+            <!-- La canción que hizo para Barbie -->
+            <div class="obra">
+
+                <img src="images/barbie.jpg"
+                     alt="What Was I Made For? cover">
+
+                <p class="obra-categoria">
+                    OSCAR WINNER · 2024
+                </p>
+
+                <h3>WHAT WAS I MADE FOR?</h3>
+
+                <p>
+                    Written for the movie Barbie (2023).
+                    The song explores identity, emotions,
+                    and self-discovery. It won the Academy
+                    Award for Best Original Song in 2024.
+                </p>
+
+                <!-- Este enlace lleva a la canción en YouTube -->
+                <a href="https://www.youtube.com/results?search_query=Billie+Eilish+What+Was+I+Made+For+official+music+video">
+                    LISTEN NOW ↗
+                </a>
+
+            </div>
+
+
+            <!-- La canción de la película de James Bond -->
+            <div class="obra">
+
+                <img src="images/no-time-to-die.jpg"
+                     alt="No Time to Die single cover">
+
+                <p class="obra-categoria">
+                    OSCAR WINNER · 2022
+                </p>
+
+                <h3>NO TIME TO DIE</h3>
+
+                <p>
+                    The theme song for the James Bond movie
+                    No Time to Die (2021). Its dramatic sound
+                    and emotional vocals earned Billie and FINNEAS
+                    the Academy Award for Best Original Song in 2022.
+                </p>
+
+                <a href="https://www.youtube.com/results?search_query=Billie+Eilish+No+Time+To+Die+official+music+video">
+                    LISTEN NOW ↗
+                </a>
+
+            </div>
+
+
+            <!-- Su primer álbum, que ganó varios premios -->
+            <div class="obra">
+
+                <img src="images/when-we-all-fall-asleep.jpg"
+                     alt="When We All Fall Asleep album cover">
+
+                <p class="obra-categoria">
+                    GRAMMY WINNER · 2020
+                </p>
+
+                <h3>
+                    WHEN WE ALL FALL ASLEEP,
+                    WHERE DO WE GO?
+                </h3>
+
+                <p>
+                    Released in 2019, this debut studio album
+                    includes "bad guy" and "bury a friend".
+                    It won Album of the Year at the 2020
+                    Grammy Awards and helped establish Billie
+                    as a global music star.
+                </p>
+
+                <!-- Este enlace lleva a Spotify -->
+                <a href="https://open.spotify.com/search/When%20We%20All%20Fall%20Asleep%20Billie%20Eilish">
+                    LISTEN NOW ↗
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- MY FAVORITES: aquí explico por qué me gustan estas canciones -->
+    <section id="favorites" class="seccion">
+
+        <h2>MY FAVORITES</h2>
+
+        <p class="descripcion-seccion">
+            Three Billie Eilish songs I especially enjoy.
+        </p>
+
+        <div class="favoritos">
+
+            <!-- watch: me gusta mucho la letra y me ayuda a concentrarme -->
+            <div class="favorito">
+
+                <span class="favorito-numero">01</span>
+
+                <div>
+                    <h3>watch</h3>
+
+                    <p>
+                        What I love most about watch is its lyrics.
+                        They're really deep, and I remember discovering
+                        the song through TikTok edits, usually about
+                        couples or heartbreaking scenes from movies
+                        and TV shows. There's also an instrumental
+                        part that I absolutely love. For a long time,
+                        I had this song on repeat because it's exactly
+                        the kind of music that helps me concentrate.
+                        It's calm enough that it doesn't distract me,
+                        but not so slow that it makes me sleepy or bored.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- lovely: esta me recuerda a mis clases de teclado -->
+            <div class="favorito">
+
+                <span class="favorito-numero">02</span>
+
+                <div>
+                    <h3>lovely (with Khalid)</h3>
+
+                    <p>
+                        I discovered lovely when I was in middle school.
+                        We had keyboard classes, and our teacher taught
+                        us how to play it, so I spent so many afternoons
+                        listening to it over and over until I could play
+                        it properly. I honestly don't even remember if
+                        I ever learned the whole song, but the fact that
+                        I never got tired of hearing it says a lot.
+                        I also love the music video, and the way Billie's
+                        and Khalid's voices sound together is incredible.
+                        Even after all these years, I still listen
+                        to it a lot.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- ocean eyes: creo que fue la primera que escuché de Billie -->
+            <div class="favorito">
+
+                <span class="favorito-numero">03</span>
+
+                <div>
+                    <h3>ocean eyes</h3>
+
+                    <p>
+                        I'm pretty sure ocean eyes was the first Billie
+                        Eilish song I ever heard, and probably the first
+                        one I saved too. What amazes me is how young
+                        she was when she recorded it. Her voice has
+                        always sounded so unique to me, but in this
+                        song it almost sounds angelic. I feel like
+                        anyone who listens to it can understand what
+                        I mean. The lyrics are beautiful too, and
+                        this song will always be special to me because
+                        it's what made me start listening to Billie
+                        in the first place.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Esto es lo que aparece hasta abajo de la página -->
+    <footer>
+        <p>BILLIE EILISH</p>
+        <p>LAB 01 | ARTIST</p>
+    </footer>
+
+</body>
+</html>

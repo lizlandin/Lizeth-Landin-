@@ -1,0 +1,288 @@
+
+/* ESTILOS GENERALES */
+
+body {
+    margin: 0;
+    background-color: #f3f1ec;
+    color: #111111;
+    font-family: Arial, sans-serif;
+}
+
+
+/* MENÚ DE NAVEGACIÓN */
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 6%;
+    border-bottom: 1px solid #cccccc;
+}
+
+.logo {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 24px;
+    color: #111111;
+    text-decoration: none;
+}
+
+.menu-links {
+    display: flex;
+    gap: 30px;
+}
+
+.menu-links a {
+    color: #111111;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* HOME */
+
+.home {
+    display: flex;
+    align-items: center;
+    padding: 50px 5%;
+    gap: 40px;
+}
+
+/* Imagen del vinilo */
+
+.vinilo {
+    width: 40%;
+}
+
+.vinilo img {
+    width: 100%;
+}
+
+/* Información principal */
+
+.home-info {
+    width: 60%;
+}
+
+#principal {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 65px;
+    line-height: 1;
+    letter-spacing: -3px;
+    margin: 0 0 25px;
+}
+
+.subtitulo {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #203d53;
+    line-height: 1.5;
+}
+
+.introduccion {
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 25px 0 35px;
+}
+
+
+/* POPULAR SONGS */
+
+.titulo-canciones {
+    color: #203d53;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 30px 0 15px;
+}
+
+.lista-canciones {
+    width: 100%;
+}
+
+.cancion {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 0;
+}
+
+.numero {
+    width: 20px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/* Portadas pequeñas de las canciones */
+
+.cancion img {
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+}
+
+.datos-cancion {
+    flex: 1;
+}
+
+.datos-cancion h4 {
+    font-size: 12px;
+    margin: 0 0 4px;
+}
+
+.datos-cancion p {
+    font-size: 10px;
+    color: #888888;
+    margin: 0;
+}
+
+.duracion {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+
+/* ESTILOS GENERALES DE LAS SECCIONES */
+
+.seccion {
+    padding: 90px 8%;
+    border-top: 1px solid #cccccc;
+}
+
+.seccion h2 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 45px;
+    margin: 0 0 30px;
+}
+
+.seccion p {
+    line-height: 1.7;
+}
+
+.descripcion-seccion {
+    margin-bottom: 40px;
+}
+
+
+/* ABOUT THE ARTIST */
+
+.about-bloque {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 90px;
+}
+
+/* Fotografías */
+
+.about-bloque img {
+    width: 40%;
+    height: 350px;
+    object-fit: cover;
+}
+
+/* Texto */
+
+.about-texto {
+    flex: 1;
+}
+
+.about-texto h3 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 22px;
+}
+
+.about-texto p {
+    font-size: 15px;
+}
+
+.about-texto li {
+    margin-bottom: 12px;
+}
+
+/* Coloca la imagen a la derecha */
+
+.about-bloque.inverso {
+    flex-direction: row-reverse;
+}
+
+
+/* IMPORTANT WORKS */
+
+.obras {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.obra img {
+    width: 100%;
+}
+
+.obra-categoria {
+    color: #203d53;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 20px 0 10px;
+}
+
+.obra h3 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 17px;
+    margin: 0 0 15px;
+}
+
+.obra p {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.obra a {
+    color: #203d53;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* MY FAVORITES */
+
+.favoritos {
+    width: 90%;
+}
+
+.favorito {
+    display: flex;
+    gap: 35px;
+    padding: 30px 0;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+.favorito-numero {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 35px;
+    color: #203d53;
+}
+
+.favorito h3 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.favorito p {
+    font-size: 15px;
+}
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #111111;
+    color: white;
+    padding: 35px 8%;
+    font-size: 12px;
+}
